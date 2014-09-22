@@ -1,6 +1,6 @@
 Joukou Circle APIs for Mono
 ===========================
-[![Apache 2.0](http://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](#license) [![Stories in Ready](https://badge.waffle.io/joukou/joukou-circles-core-mono.png?label=ready&title=Ready)](http://waffle.io/joukou/joukou-circles-core-mono) [![IRC](http://img.shields.io/badge/IRC-%23joukou-blue.svg)](http://webchat.freenode.net/?channels=joukou)
+[![Circle CI](https://circleci.com/gh/joukou/joukou-circles-core-mono/tree/develop.png?style=badge&circle-token=72dc0bb05268df2e1f7958710ef47747f577b7b1)](https://circleci.com/gh/joukou/joukou-circles-core-mono/tree/develop) [![Apache 2.0](http://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](#license) [![Stories in Ready](https://badge.waffle.io/joukou/joukou-circles-core-mono.png?label=ready&title=Ready)](http://waffle.io/joukou/joukou-circles-core-mono) [![IRC](http://img.shields.io/badge/IRC-%23joukou-blue.svg)](http://webchat.freenode.net/?channels=joukou)
 
 [Joukou](https://joukou.com) Circle APIs for
 [Mono](http://www.mono-project.com/).
