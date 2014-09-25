@@ -1,9 +1,12 @@
 using System;
+using RabbitMQ.Client;
+using System.Text;
 
 namespace Joukou.Core.Circles
 {
 	public class Port : IPort
 	{
+
 		public Port(){
 
 		}
@@ -18,12 +21,17 @@ namespace Joukou.Core.Circles
 			}
 		}
 
-		internal void SendInformationPacket(IInformationPacket packet){
+		internal protected string routingKey = null;
+		internal protected string exchange = null;
+		internal protected ConnectionFactory connectionFactory = null;
 
+		internal protected void SetupConnectionFactory(){
+			//TODO read environment variables to get the host name, routingKey & exchange 
+			connectionFactory = new ConnectionFactory () { HostName = "localhost" };
 		}
 
-		internal void ReceivedInformationPacket(IInformationPacket packet){
-
+		internal protected byte[] EncodeMessage(string message){
+			return Encoding.UTF8.GetBytes (message);
 		}
 
 		internal string RepresentAsJsonString(object value){
